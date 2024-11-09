@@ -66,7 +66,7 @@ suite("Functional Tests", function () {
 });
 
 const Browser = require("zombie");
-Browser.site = 'https://chai-testing.onrender.com';
+Browser.site = 'https://boilerplate-mochachai.jainaayush01.repl.co';
 suite("Functional Tests with Zombie.js", function () {
   const browser = new Browser();
   suiteSetup(function (done) {
