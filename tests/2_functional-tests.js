@@ -53,7 +53,7 @@ suite('Functional Tests', function () {
       chai
         .request(server)
         .keepOpen()
-        .put('travellers')
+        .put('/travellers')
         .send({ surname: 'da Verrazzano'})
         .end(function(err, res) {
           assert.equal(res.status, 200);
